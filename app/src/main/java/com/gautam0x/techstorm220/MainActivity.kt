@@ -2,6 +2,9 @@ package com.gautam0x.techstorm220
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
@@ -39,5 +42,13 @@ class MainActivity : AppCompatActivity() {
             drawerLayout.closeDrawers()
             return@OnNavigationItemSelectedListener true
         })
+
+
+        // Animation to be addded
+        val outerLogo = findViewById<ImageView>(R.id.outer_logo_layer)
+        val clockwiseRotateAnimation:Animation = AnimationUtils.loadAnimation(applicationContext,R.anim.clockwise_infinite_loop)
+
+        outerLogo.startAnimation(clockwiseRotateAnimation)
+
     }
 }
