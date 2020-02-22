@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.github.florent37.shapeofview.shapes.RoundRectView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="2dp"
+    app:shape_roundRect_bottomLeftRadius="8dp"
+    app:shape_roundRect_bottomRightRadius="8dp"
+    app:shape_roundRect_topLeftRadius="8dp"
+    app:shape_roundRect_topRightRadius="8dp"
+    app:shape_roundRect_borderColor="#FFFFFF"
+    app:shape_roundRect_borderWidth="2dp">
+
+    <RelativeLayout
+        android:background="#0F0416"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/card_event_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/rocombat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/card_event_banner"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/event_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ro Cambat"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/event_short_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text='if someone needs, "fitCenter" is another attribute for scaleType, and it will not scale up the image, but for any big image'
+                android:textColor="#FAFFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/prize_worth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Prize Worth $800"
+                android:textColor="#E4DFDF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</com.github.florent37.shapeofview.shapes.RoundRectView>

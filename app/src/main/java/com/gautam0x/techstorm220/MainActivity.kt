@@ -1,5 +1,6 @@
 package com.gautam0x.techstorm220
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.animation.Animation
@@ -8,6 +9,8 @@ import android.widget.ImageView
 import android.widget.Toast
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
+import kotlinx.android.synthetic.main.activity_main.*
+import maes.tech.intentanim.CustomIntent.customType
 
 class MainActivity : AppCompatActivity() {
 
@@ -50,5 +53,21 @@ class MainActivity : AppCompatActivity() {
 
         outerLogo.startAnimation(clockwiseRotateAnimation)
 
+
+        // Set On Click Listener For Thumbnails
+        rovers_thumbnail_wrapper.setOnClickListener { startEventCardSwipeActivity("event_data_robotics.json")}
+        brain_teaser_thumbnail_wrapper.setOnClickListener { startEventCardSwipeActivity("event_data_brain_teaser.json")}
+        gaming_thumbnail_wrapper.setOnClickListener { startEventCardSwipeActivity("event_data_gaming.json")}
+        creativity_thumbnail_wrapper.setOnClickListener { startEventCardSwipeActivity("event_data_creativity.json")}
+    }
+
+    fun startEventCardSwipeActivity(jsonFileName:String)
+    {
+        val intent = Intent(this,EventCardSwipeActivity::class.java)
+        intent.putExtra("jsonFileName",jsonFileName)
+        startActivity(intent)
+
+        // intent animation
+        customType(this,"fadein-to-fadeout")
     }
 }
