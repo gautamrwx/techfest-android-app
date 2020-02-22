@@ -77,7 +77,7 @@ class EventCardSwipeActivity : AppCompatActivity(), SwipeStack.SwipeStackListene
         startInformationIntent(position)
     }
     override fun onStackEmpty() {
-        swipeStack?.resetStack()
+        swipeStack!!.resetStack()
     }
 
     fun startInformationIntent(position:Int)

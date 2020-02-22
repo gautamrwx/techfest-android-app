@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
                 R.id.nav_about_us -> Toast.makeText(applicationContext,"cam 1",Toast.LENGTH_SHORT).show()
                 R.id.nav_result -> Toast.makeText(applicationContext,"cam 2",Toast.LENGTH_SHORT).show()
-                R.id.nav_team -> Toast.makeText(applicationContext,"cam 3",Toast.LENGTH_SHORT).show()
+                R.id.nav_team -> startActivity(Intent(this,TeamProfilesActivity::class.java))
                 R.id.nav_developer -> Toast.makeText(applicationContext,"cam 4",Toast.LENGTH_SHORT).show()
 
                 R.id.nav_website -> Toast.makeText(applicationContext,"cam 4",Toast.LENGTH_SHORT).show()
