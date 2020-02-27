@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_about_us -> Toast.makeText(applicationContext,"cam 1",Toast.LENGTH_SHORT).show()
                 R.id.nav_result -> Toast.makeText(applicationContext,"cam 2",Toast.LENGTH_SHORT).show()
                 R.id.nav_team -> startActivity(Intent(this,TeamProfilesActivity::class.java))
-                R.id.nav_developer -> Toast.makeText(applicationContext,"cam 4",Toast.LENGTH_SHORT).show()
 
                 R.id.nav_website -> Toast.makeText(applicationContext,"cam 4",Toast.LENGTH_SHORT).show()
                 R.id.nav_facebook -> Toast.makeText(applicationContext,"cam 4",Toast.LENGTH_SHORT).show()
@@ -47,19 +46,16 @@ class MainActivity : AppCompatActivity() {
         })
 
 
-        // Animation to be addded
-        val outerLogo = findViewById<ImageView>(R.id.outer_logo_layer)
-        val clockwiseRotateAnimation:Animation = AnimationUtils.loadAnimation(applicationContext,R.anim.clockwise_infinite_loop)
 
-        outerLogo.startAnimation(clockwiseRotateAnimation)
+        val eventTypes = ArrayList<EventTypes>()
+        eventTypes.add(EventTypes("Rovers","event_data_rovers.json",R.drawable.robos))
+        eventTypes.add(EventTypes("Brain Teaser","event_data_brain_teaser.json",R.drawable.cube))
+        eventTypes.add(EventTypes("Gaming","event_data_gaming.json",R.drawable.games))
+        eventTypes.add(EventTypes("Creativity","event_data_creativity.json",R.drawable.vcamera))
 
+        viewPager.adapter = EventTypesAdapter(eventTypes,this)
 
-        // Set On Click Listener For Thumbnails
-        rovers_thumbnail_wrapper.setOnClickListener { startEventCardSwipeActivity("event_data_robotics.json")}
-        brain_teaser_thumbnail_wrapper.setOnClickListener { startEventCardSwipeActivity("event_data_brain_teaser.json")}
-        gaming_thumbnail_wrapper.setOnClickListener { startEventCardSwipeActivity("event_data_gaming.json")}
-        creativity_thumbnail_wrapper.setOnClickListener { startEventCardSwipeActivity("event_data_creativity.json")}
-    }
+  }
 
     fun startEventCardSwipeActivity(jsonFileName:String)
     {

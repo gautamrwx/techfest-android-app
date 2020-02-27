@@ -30,7 +30,7 @@ class EventFullInformationActivity : AppCompatActivity() {
 
         // Get json array file and position  From last Intent
         val currentJsonFileName = intent.getStringExtra("currentJsonFilename")!!
-        val stackPosition = intent.getIntExtra("stackPosition",0)!!
+        val stackPosition = intent.getIntExtra("stackPosition",0)
 
         val rulesList = ArrayList<RulesDataModel>()
 

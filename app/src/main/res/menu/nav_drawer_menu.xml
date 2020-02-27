@@ -7,19 +7,19 @@
             android:title="About Us"/>
         <item
             android:id="@+id/nav_result"
-            android:icon="@drawable/ic_result"
+            android:icon="@drawable/ic_result_list"
             android:title="Result"/>
         <item
             android:id="@+id/nav_team"
             android:icon="@drawable/ic_team"
             android:title="Team"/>
         <item
-            android:id="@+id/nav_developer"
-            android:icon="@drawable/ic_developer"
-            android:title="Developer"/>
+            android:id="@+id/nav_identity"
+            android:icon="@drawable/ic_identity"
+            android:title="Registration Info"/>
     </group>
 
-    <item android:title="Our Online Portal">
+    <item android:title="Online Portals">
         <menu>
             <item
                 android:id="@+id/nav_website"

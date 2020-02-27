@@ -12,13 +12,13 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/ts_logo_original"/>
+        android:src="@drawable/ts_dp"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Technical Fest Of Bppimt"
+        android:text="..."
         android:textAlignment="center"
         android:textColor="#ffffff"
         android:textSize="18sp" />
