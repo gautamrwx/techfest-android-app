@@ -20,7 +20,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textSize="0sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/card_short_desc"
@@ -31,9 +33,10 @@
 
 
     <Button
-        android:id="@+id/card_button"
+        android:id="@+id/card_more_info_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_margin="15dp"
         android:background="@drawable/more_info_btn"
         android:minWidth="150dp"
