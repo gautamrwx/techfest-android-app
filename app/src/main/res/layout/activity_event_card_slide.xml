@@ -5,7 +5,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
+    android:background="@drawable/app_bg_image"
     android:layout_height="match_parent"
     tools:context=".EventCardSlideActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="Rovers"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:elevation="23dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.github.islamkhsh.CardSliderViewPager
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:id="@+id/viewPager"
+            app:cardSlider_smallScaleFactor="0.9"
+            app:cardSlider_otherPagesWidth="24dp"
+            app:cardSlider_pageMargin="5dp"
+            app:auto_slide_time="3"
+            app:cardSlider_smallAlphaFactor="0.5"
+            app:cardSlider_indicator="@id/indicator"/>
+
+        <com.github.islamkhsh.CardSliderIndicator
+            android:id="@+id/indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            app:indicatorsToShow="4" />
+
+    </LinearLayout>
 
 </LinearLayout>
