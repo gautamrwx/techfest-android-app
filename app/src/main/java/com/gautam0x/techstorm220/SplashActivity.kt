@@ -1,10 +1,12 @@
 package com.gautam0x.techstorm220
 
+import `in`.codeshuffle.typewriterview.TypeWriterView
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.animation.AnimationUtils
 import kotlinx.android.synthetic.main.activity_splash.*
+import kotlinx.android.synthetic.main.activity_splash.view.*
 import java.util.*
 import kotlin.concurrent.timerTask
 
@@ -14,11 +16,11 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
+        ts_quote.setDelay(80)
+        ts_quote.animateText("Unleash Your Thoughts");
+
         val animation1 = AnimationUtils.loadAnimation(this,R.anim.bounce_res)
         ts_new_logo.startAnimation(animation1)
-
-        val animation2 = AnimationUtils.loadAnimation(this,R.anim.aplha_res)
-        ts_quote.startAnimation(animation2)
 
         val animation3 = AnimationUtils.loadAnimation(this,R.anim.aplha_res)
         bottom_layout.startAnimation(animation3)
@@ -27,6 +29,7 @@ class SplashActivity : AppCompatActivity() {
         val timer = Timer()
         timer.schedule(timerTask {
             startActivity(intent)
-            finish()}, 1500)
+            finish()}, 2500)
+
     }
 }

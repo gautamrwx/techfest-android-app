@@ -1,62 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_page"
+    android:background="@drawable/splash_screen_bg"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/app_bg_image"
-    tools:context=".SplashActivity">
+    android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/ts_new_logo"
-        android:layout_width="230dp"
-        android:layout_height="230dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp"
-        android:layout_marginBottom="20dp"
-        app:srcCompat="@drawable/ts_dp" />
+        android:id="@+id/thumbnail_picture"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cky"/>
 
-    <TextView
-        android:id="@+id/ts_quote"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Unleash Your Thoughts"
-        android:layout_below="@+id/ts_new_logo"
-        android:layout_centerHorizontal="true"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:fontFamily="@font/azonix"/>
 
-    <LinearLayout
-        android:id="@+id/bottom_layout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="15sp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SplashActivity">
+
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/ts_new_logo"
+            android:layout_width="243dp"
+            android:layout_height="227dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/ts_dp" />
+
+        <in.codeshuffle.typewriterview.TypeWriterView
+            android:id="@+id/ts_quote"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_marginStart="30dp"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
-            app:srcCompat="@drawable/bppimt" />
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ts_new_logo"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/azonix"/>
 
-        <ImageView
-            android:id="@+id/imageView3"
+        <LinearLayout
+            android:id="@+id/bottom_layout"
             android:layout_width="wrap_content"
-            android:layout_height="41dp"
-            android:layout_marginStart="5dp"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
-            app:srcCompat="@drawable/ts_old_dp" />
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
 
-    </LinearLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/bppimt" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_marginStart="5dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/ts_old_dp" />
+
+        </LinearLayout>
 
 
-</RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>
