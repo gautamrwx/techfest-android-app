@@ -55,7 +55,17 @@ class MainActivity : AppCompatActivity() {
 
         viewPager.adapter = EventTypesAdapter(eventTypes,this)
 
-  }
+        val sponserList = ArrayList<SponersModel>()
+        sponserList.add(SponersModel("Google",R.drawable.robos))
+        sponserList.add(SponersModel("Google",R.drawable.robos))
+        sponserList.add(SponersModel("Google",R.drawable.robos))
+        sponserList.add(SponersModel("Google",R.drawable.robos))
+        sponserList.add(SponersModel("Google",R.drawable.robos))
+        sponserList.add(SponersModel("Google",R.drawable.robos))
+        sponserList.add(SponersModel("Google",R.drawable.robos))
+
+        sponsers_pager.adapter = SponsersAdapter(sponserList,this)
+    }
 
     fun startEventCardSwipeActivity(jsonFileName:String)
     {

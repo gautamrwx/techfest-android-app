@@ -18,16 +18,9 @@
         </activity>
         <activity android:name=".EventCardSlideActivity" />
         <activity android:name=".TeamProfilesActivity" />
-        <activity android:name=".TeamActivity" />
         <activity android:name=".EventFullInformationActivity" />
-        <activity android:name=".EvntFullInformation" />
         <activity android:name=".EventCardSwipeActivity" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
