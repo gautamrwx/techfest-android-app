@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/ts_dp"/>
+        android:src="@drawable/ts_logo"/>
 
     <TextView
         android:id="@+id/textView"

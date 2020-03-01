@@ -30,7 +30,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="150dp"
             android:layout_marginBottom="30dp"
-            app:srcCompat="@drawable/cross_logo" />
+            app:srcCompat="@drawable/ts_logo" />
 
         <in.codeshuffle.typewriterview.TypeWriterView
             android:id="@+id/ts_quote"
@@ -59,7 +59,7 @@
                 android:layout_marginStart="30dp"
                 android:scaleType="centerInside"
                 android:adjustViewBounds="true"
-                app:srcCompat="@drawable/bppimt" />
+                app:srcCompat="@drawable/bppimt_logo" />
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -68,7 +68,7 @@
                 android:layout_marginStart="5dp"
                 android:scaleType="centerInside"
                 android:adjustViewBounds="true"
-                app:srcCompat="@drawable/ts_old_dp" />
+                app:srcCompat="@drawable/ts_old_logo" />
 
         </LinearLayout>
 

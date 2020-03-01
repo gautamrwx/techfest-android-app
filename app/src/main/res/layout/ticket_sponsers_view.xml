@@ -7,20 +7,20 @@
     android:orientation="horizontal">
 
     <LinearLayout
+        android:id="@+id/sp1_wrapper"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="4dp"
+        android:layout_margin="3dp"
         android:layout_weight="1"
         android:background="#F8F8F8"
         android:orientation="vertical">
 
         <ImageView
             android:id="@+id/sp_thmub_1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="100dp"
             android:adjustViewBounds="true"
-            android:scaleType="centerCrop"
-            app:srcCompat="@drawable/rovers" />
+            app:srcCompat="@drawable/cube" />
 
         <TextView
             android:id="@+id/sp_text_1"
@@ -33,21 +33,23 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/sp2_wrapper"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="4dp"
+        android:layout_margin="3dp"
         android:layout_weight="1"
         android:background="#F8F8F8"
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:id="@+id/sp_thumb_2"
+            android:layout_width="match_parent"
             android:layout_height="100dp"
             android:adjustViewBounds="true"
-            android:scaleType="centerCrop"
-            app:srcCompat="@drawable/rovers" />
+            app:srcCompat="@drawable/cube" />
 
         <TextView
+            android:id="@+id/sp_text_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="2dp"
@@ -57,21 +59,23 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/sp3_wrapper"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="4dp"
+        android:layout_margin="3dp"
         android:layout_weight="1"
         android:background="#F8F8F8"
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:id="@+id/sp_thumb_3"
+            android:layout_width="match_parent"
             android:layout_height="100dp"
             android:adjustViewBounds="true"
-            android:scaleType="centerCrop"
-            app:srcCompat="@drawable/rovers" />
+            app:srcCompat="@drawable/cube" />
 
         <TextView
+            android:id="@+id/sp_text_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="2dp"

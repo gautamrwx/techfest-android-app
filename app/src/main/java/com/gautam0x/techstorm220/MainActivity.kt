@@ -3,9 +3,7 @@ package com.gautam0x.techstorm220
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.animation.Animation
-import android.view.animation.AnimationUtils
-import android.widget.ImageView
+import android.view.View
 import android.widget.Toast
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
@@ -56,13 +54,18 @@ class MainActivity : AppCompatActivity() {
         viewPager.adapter = EventTypesAdapter(eventTypes,this)
 
         val sponserList = ArrayList<SponersModel>()
-        sponserList.add(SponersModel("Google",R.drawable.robos))
-        sponserList.add(SponersModel("Google",R.drawable.robos))
-        sponserList.add(SponersModel("Google",R.drawable.robos))
-        sponserList.add(SponersModel("Google",R.drawable.robos))
-        sponserList.add(SponersModel("Google",R.drawable.robos))
-        sponserList.add(SponersModel("Google",R.drawable.robos))
-        sponserList.add(SponersModel("Google",R.drawable.robos))
+
+        sponserList.add(SponersModel("Ardent",R.drawable.batch_ardent_logo,  View.VISIBLE))
+        sponserList.add(SponersModel("IMS", R.drawable.batch_gateaca, View.VISIBLE))
+        sponserList.add(SponersModel("Gate Academy", R.drawable.batch_tga, View.VISIBLE))
+
+        sponserList.add(SponersModel("IAE", R.drawable.batch_tme, View.VISIBLE))
+        sponserList.add(SponersModel("Un Engineering", R.drawable.batch_ungineering, View.VISIBLE))
+        sponserList.add(SponersModel("MadeEasy", R.drawable.batch_gateaca, View.VISIBLE))
+
+        sponserList.add(SponersModel("Ferrari", R.drawable.batch_ardent_logo, View.VISIBLE))
+        sponserList.add(SponersModel("Micros", R.drawable.robos, View.INVISIBLE))
+        sponserList.add(SponersModel("Micros", R.drawable.robos, View.INVISIBLE))
 
         sponsers_pager.adapter = SponsersAdapter(sponserList,this)
     }
