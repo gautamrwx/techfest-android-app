@@ -10,7 +10,7 @@
     tools:context=".EventCardSlideActivity">
 
     <androidx.appcompat.widget.Toolbar
-        app:title="Rovers"
+        app:title="Title Here"
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"

@@ -28,6 +28,7 @@ class EventTypesAdapter (private val events : ArrayList<EventTypes>,val context:
             btn_dive_in.setOnClickListener {
                 val intent = Intent(context,EventCardSlideActivity::class.java)
                 intent.putExtra("jsonFileName",events[position].eventJson)
+                intent.putExtra("eventType",events[position].eventType)
                 context.startActivity(intent)
             }
         }

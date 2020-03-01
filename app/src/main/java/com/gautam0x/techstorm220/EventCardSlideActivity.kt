@@ -20,6 +20,9 @@ class EventCardSlideActivity : AppCompatActivity() {
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back)
         toolbar.setNavigationOnClickListener { finish() }
 
+        // Set Toolbar Title From Extra
+        toolbar.title = intent.getStringExtra("eventType")
+
         fillCardWithsEventData()
 
         // Add events card

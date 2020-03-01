@@ -69,14 +69,4 @@ class MainActivity : AppCompatActivity() {
 
         sponsers_pager.adapter = SponsersAdapter(sponserList,this)
     }
-
-    fun startEventCardSwipeActivity(jsonFileName:String)
-    {
-        val intent = Intent(this,EventCardSwipeActivity::class.java)
-        intent.putExtra("jsonFileName",jsonFileName)
-        startActivity(intent)
-
-        // intent animation
-        customType(this,"fadein-to-fadeout")
-    }
 }
