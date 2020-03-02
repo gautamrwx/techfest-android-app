@@ -38,8 +38,18 @@
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
-
     </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:maxImageSize="50dp"
+        android:src="@drawable/register_txt"
+        app:backgroundTint="#05476A"
+        app:fabCustomSize="70dp"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|right|end"
+        android:layout_marginEnd="30dp"/>
 
     <androidx.core.widget.NestedScrollView
         android:paddingBottom="60dp"
@@ -89,6 +99,13 @@
                     android:layout_weight="1"
                     android:orientation="vertical"
                     android:paddingBottom="20dp">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/gf"
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:nestedScrollingEnabled="false"
+                        android:overScrollMode="never" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -346,4 +363,5 @@
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
