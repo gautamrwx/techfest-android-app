@@ -17,18 +17,23 @@ class RegisterUser8Activity : AppCompatActivity() {
         val eventCategory = intent.getStringExtra("eventCategory")
 
 
-        var teamName = "tech team"
-        var collegeName = "BPPIMT Kolkata"
-        var leaderName = "Dr Fuery"
-        var leaderDepartment = "ECE"
-        var leaderEmail = "dfuery45@gmail.com"
-        var leaderPhone = "9563595522"
+        var teamName = input_team_name.text.toString()
+        var collegeName = input_college_name.text.toString()
+        var leaderName = input_mem1_name.text.toString()
+        var leaderDepartment = input_mem1_department.text.toString()
+        var leaderEmail = input_mem1_email.text.toString()
+        var leaderPhone = input_mem1_phone.text.toString()
         var paymentStatus = "none"
+
         val gropuMembers = ArrayList<GroupMem>()
 
-        gropuMembers.add(GroupMem("Natasha Romanoff","ECE"))
-        gropuMembers.add(GroupMem("Tony Stark","CSE"))
-        gropuMembers.add(GroupMem("Peter Parkder","EE"))
+        gropuMembers.add(GroupMem(input_mem2_name.text.toString(),input_mem2_department.text.toString()))
+        gropuMembers.add(GroupMem(input_mem3_name.text.toString(),input_mem3_department.text.toString()))
+        gropuMembers.add(GroupMem(input_mem4_name.text.toString(),input_mem4_department.text.toString()))
+        gropuMembers.add(GroupMem(input_mem5_name.text.toString(),input_mem5_department.text.toString()))
+        gropuMembers.add(GroupMem(input_mem6_name.text.toString(),input_mem6_department.text.toString()))
+        gropuMembers.add(GroupMem(input_mem7_name.text.toString(),input_mem7_department.text.toString()))
+        gropuMembers.add(GroupMem(input_mem8_name.text.toString(),input_mem8_department.text.toString()))
 
 
 
