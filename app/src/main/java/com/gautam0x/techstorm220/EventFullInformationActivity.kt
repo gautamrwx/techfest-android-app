@@ -1,5 +1,6 @@
 package com.gautam0x.techstorm220
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -15,7 +16,6 @@ class EventFullInformationActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_event_full_information)
 
-
         // Add Back Button on toolbar
         tool_bar.setNavigationIcon(R.drawable.ic_arrow_back)
         tool_bar.setNavigationOnClickListener {
@@ -29,7 +29,7 @@ class EventFullInformationActivity : AppCompatActivity() {
     private fun readJsonAndFillData(){
 
         // Get json array file and position  From last Intent
-        val currentJsonFileName = intent.getStringExtra("currentJsonFilename")!!
+        val currentJsonFileName = intent.getStringExtra("currentJsonFilename")
         val stackPosition = intent.getIntExtra("stackPosition",0)
 
         val rulesList = ArrayList<RulesDataModel>()
@@ -42,17 +42,53 @@ class EventFullInformationActivity : AppCompatActivity() {
             val currentJson = JSONArray(json).getJSONObject(stackPosition)
 
             // Get Plain Text
+            val eventCategory = intent.getStringExtra("eventCategory")
             val drawableBannerName = currentJson.getString("event_banner_drawable")
             val name = currentJson.getString("event_name")
             val longDesc = currentJson.getString("event_long_desc")
             val prizeWorth = currentJson.getString("event_prize_worth")
             val contactName = currentJson.getString("event_contact_name")
             val regFees = currentJson.getString("event_reg_fees")
+            val maxMember = currentJson.getInt("event_max_member")
+            val minMember = currentJson.getInt("event_min_member")
 
             desc_text_view.text = longDesc
             prize_worth_text.text = prizeWorth
             event_reg_fees.text = regFees
             event_contact_text.text = contactName
+
+            reg_btn.setOnClickListener {
+                when(maxMember){
+                    1 -> {
+                        val regIntent = Intent(this,RegisterUser8Activity::class.java)
+                        regIntent.putExtra("eventCategory",eventCategory)
+                        regIntent.putExtra("eventName",name)
+                        regIntent.putExtra("minMember",minMember)
+                        startActivity(regIntent)
+                    }
+                    2 -> {
+                        val regIntent = Intent(this,RegisterUser8Activity::class.java)
+                        regIntent.putExtra("eventCategory",eventCategory)
+                        regIntent.putExtra("eventName",name)
+                        regIntent.putExtra("minMember",minMember)
+                        startActivity(regIntent)
+                    }
+                    5 -> {
+                        val regIntent = Intent(this,RegisterUser8Activity::class.java)
+                        regIntent.putExtra("eventCategory",eventCategory)
+                        regIntent.putExtra("eventName",name)
+                        regIntent.putExtra("minMember",minMember)
+                        startActivity(regIntent)
+                    }
+                    8 -> {
+                        val regIntent = Intent(this,RegisterUser8Activity::class.java)
+                        regIntent.putExtra("eventCategory",eventCategory)
+                        regIntent.putExtra("eventName",name)
+                        regIntent.putExtra("minMember",minMember)
+                        startActivity(regIntent)
+                    }
+                }
+            }
 
             // Attach Image Of Event
             val resID = resources.getIdentifier(drawableBannerName, "drawable", packageName)

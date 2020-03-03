@@ -21,12 +21,13 @@ class EventCardSlideActivity : AppCompatActivity() {
         toolbar.setNavigationOnClickListener { finish() }
 
         // Set Toolbar Title From Extra
-        toolbar.title = intent.getStringExtra("eventType")
+        val evenCategory = intent.getStringExtra("eventType")
+        toolbar.title = evenCategory
 
         fillCardWithsEventData()
 
         // Add events card
-        viewPager.adapter = EventCardsAdapter(eventCards,this)
+        viewPager.adapter = EventCardsAdapter(eventCards,evenCategory,this)
     }
 
     private fun fillCardWithsEventData() {

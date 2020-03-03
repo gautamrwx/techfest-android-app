@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.event_type_thumbnail.view.*
 import kotlinx.android.synthetic.main.ticket_event_card.view.*
 import kotlinx.android.synthetic.main.ticket_event_card_swipe.view.*
 
-class EventCardsAdapter (private val events : ArrayList<EventCardData>,val context: Context) : CardSliderAdapter<EventCardsAdapter.MovieViewHolder>() {
+class EventCardsAdapter (private val events : ArrayList<EventCardData>,private val eventType:String,val context: Context) : CardSliderAdapter<EventCardsAdapter.MovieViewHolder>() {
 
     override fun getItemCount() = events.size
 
@@ -32,6 +32,7 @@ class EventCardsAdapter (private val events : ArrayList<EventCardData>,val conte
                 val intent = Intent(context,EventFullInformationActivity::class.java)
                 intent.putExtra("currentJsonFilename",events[position].jsonFileName)
                 intent.putExtra("stackPosition",position)
+                intent.putExtra("eventCategory",eventType)
                 context.startActivity(intent)
             }
         }
