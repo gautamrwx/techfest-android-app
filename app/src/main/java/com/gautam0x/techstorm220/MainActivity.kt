@@ -44,10 +44,10 @@ class MainActivity : AppCompatActivity() {
         })
 
         val eventTypes = ArrayList<EventTypes>()
-        eventTypes.add(EventTypes("Rovers","event_data_robotics.json",R.drawable.robos))
-        eventTypes.add(EventTypes("Brain Teaser","event_data_brain_teaser.json",R.drawable.cube))
-        eventTypes.add(EventTypes("Gaming","event_data_gaming.json",R.drawable.games))
-        eventTypes.add(EventTypes("Creativity","event_data_creativity.json",R.drawable.vcamera))
+        eventTypes.add(EventTypes("Rovers","event_data_robotics.json",R.drawable.thumb_roverse))
+        eventTypes.add(EventTypes("Brain Teaser","event_data_brain_teaser.json",R.drawable.thumb_brain_teasers))
+        eventTypes.add(EventTypes("Gaming","event_data_gaming.json",R.drawable.thumb_games))
+        eventTypes.add(EventTypes("Creativity","event_data_creativity.json",R.drawable.thumb_creative))
 
         viewPager.adapter = EventTypesAdapter(eventTypes,this)
 

@@ -46,10 +46,11 @@
         android:layout_height="wrap_content"
         app:maxImageSize="50dp"
         android:src="@drawable/register_txt"
-        app:backgroundTint="#05476A"
+        app:backgroundTint="#710B70"
         app:fabCustomSize="70dp"
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|right|end"
+        app:elevation="45dp"
         android:layout_marginEnd="30dp"/>
 
     <androidx.core.widget.NestedScrollView

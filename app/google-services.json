@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "778676671732",
+    "firebase_url": "https://techstormapp.firebaseio.com",
+    "project_id": "techstormapp",
+    "storage_bucket": "techstormapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778676671732:android:bee68d9627569958a5baa1",
+        "android_client_info": {
+          "package_name": "com.gautam0x.techstorm220"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778676671732-v5umavd85o7sbe5ghf3itcbdmk3m07gr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gautam0x.techstorm220",
+            "certificate_hash": "cdf92ed9aa6b8a6896c49bbd0a0f4e05b6166264"
+          }
+        },
+        {
+          "client_id": "778676671732-kls26t5ae98i9na17mjs6m323jd1s1o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1y3UGM-p8irBNAucN3hA05sUwq5m7_kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778676671732-kls26t5ae98i9na17mjs6m323jd1s1o1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

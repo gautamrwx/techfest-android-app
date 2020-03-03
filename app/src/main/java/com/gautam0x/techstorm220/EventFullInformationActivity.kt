@@ -60,21 +60,21 @@ class EventFullInformationActivity : AppCompatActivity() {
             reg_btn.setOnClickListener {
                 when(maxMember){
                     1 -> {
-                        val regIntent = Intent(this,RegisterUser8Activity::class.java)
+                        val regIntent = Intent(this,RegisterUser1Activity::class.java)
                         regIntent.putExtra("eventCategory",eventCategory)
                         regIntent.putExtra("eventName",name)
                         regIntent.putExtra("minMember",minMember)
                         startActivity(regIntent)
                     }
                     2 -> {
-                        val regIntent = Intent(this,RegisterUser8Activity::class.java)
+                        val regIntent = Intent(this,RegisterUser2Activity::class.java)
                         regIntent.putExtra("eventCategory",eventCategory)
                         regIntent.putExtra("eventName",name)
                         regIntent.putExtra("minMember",minMember)
                         startActivity(regIntent)
                     }
                     5 -> {
-                        val regIntent = Intent(this,RegisterUser8Activity::class.java)
+                        val regIntent = Intent(this,RegisterUser5Activity::class.java)
                         regIntent.putExtra("eventCategory",eventCategory)
                         regIntent.putExtra("eventName",name)
                         regIntent.putExtra("minMember",minMember)

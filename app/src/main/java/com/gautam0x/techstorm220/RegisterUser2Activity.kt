@@ -1,23 +1,19 @@
 package com.gautam0x.techstorm220
 
-import android.app.Person
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.google.firebase.database.FirebaseDatabase
-import kotlinx.android.synthetic.main.activity_event_card_swipe.*
-import kotlinx.android.synthetic.main.activity_event_full_information.*
-import kotlinx.android.synthetic.main.activity_register_user8.*
-import kotlinx.android.synthetic.main.activity_register_user8.toolbar
+import kotlinx.android.synthetic.main.activity_register_user2.*
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
 
-class RegisterUser8Activity : AppCompatActivity() {
+class RegisterUser2Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_register_user8)
+        setContentView(R.layout.activity_register_user2)
 
         val minMember = intent.getIntExtra("minMember",1)
         val eventName = intent.getStringExtra("eventName")
@@ -30,6 +26,7 @@ class RegisterUser8Activity : AppCompatActivity() {
         // Set Toolbar Title From Extra
         toolbar.title = eventName
 
+
         submit_reg_btn.setOnClickListener {
             val teamName = input_team_name.text.toString()
             val collegeName = input_college_name.text.toString()
@@ -40,16 +37,10 @@ class RegisterUser8Activity : AppCompatActivity() {
             val paymentStatus = "none"
 
             val groupMembers = ArrayList<GroupMem>()
-
             groupMembers.add(GroupMem(input_mem2_name.text.toString(),input_mem2_department.text.toString()))
-            groupMembers.add(GroupMem(input_mem3_name.text.toString(),input_mem3_department.text.toString()))
-            groupMembers.add(GroupMem(input_mem4_name.text.toString(),input_mem4_department.text.toString()))
-            groupMembers.add(GroupMem(input_mem5_name.text.toString(),input_mem5_department.text.toString()))
-            groupMembers.add(GroupMem(input_mem6_name.text.toString(),input_mem6_department.text.toString()))
-            groupMembers.add(GroupMem(input_mem7_name.text.toString(),input_mem7_department.text.toString()))
-            groupMembers.add(GroupMem(input_mem8_name.text.toString(),input_mem8_department.text.toString()))
 
-            Toast.makeText(applicationContext,"wait",Toast.LENGTH_SHORT).show()
+            // Start Action
+            Toast.makeText(applicationContext,"wait", Toast.LENGTH_SHORT).show()
 
             val ref = FirebaseDatabase.getInstance().getReference("Creativity").child("PassionWithReels")
             val pId = leaderPhone
