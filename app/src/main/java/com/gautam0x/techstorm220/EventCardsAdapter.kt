@@ -30,11 +30,10 @@ class EventCardsAdapter (private val events : ArrayList<EventCardData>,val conte
             card_event_thumb.setImageResource(events[position].eventThumbnail)
             card_more_info_btn.setOnClickListener {
                 val intent = Intent(context,EventFullInformationActivity::class.java)
-                intent.putExtra("currentJsonFilename","event_data_gaming.json")
+                intent.putExtra("currentJsonFilename",events[position].jsonFileName)
                 intent.putExtra("stackPosition",position)
                 context.startActivity(intent)
             }
-
         }
     }
 

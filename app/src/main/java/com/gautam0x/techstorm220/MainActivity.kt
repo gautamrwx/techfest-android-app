@@ -43,10 +43,8 @@ class MainActivity : AppCompatActivity() {
             return@OnNavigationItemSelectedListener true
         })
 
-
-
         val eventTypes = ArrayList<EventTypes>()
-        eventTypes.add(EventTypes("Rovers","event_data_rovers.json",R.drawable.robos))
+        eventTypes.add(EventTypes("Rovers","event_data_robotics.json",R.drawable.robos))
         eventTypes.add(EventTypes("Brain Teaser","event_data_brain_teaser.json",R.drawable.cube))
         eventTypes.add(EventTypes("Gaming","event_data_gaming.json",R.drawable.games))
         eventTypes.add(EventTypes("Creativity","event_data_creativity.json",R.drawable.vcamera))

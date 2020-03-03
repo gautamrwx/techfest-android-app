@@ -52,7 +52,7 @@ class EventCardSlideActivity : AppCompatActivity() {
                 val eventBannerName =  jsonArr.getJSONObject(i).getString("event_banner_drawable")
                 val eventBaneerDrawableResId = this.resources.getIdentifier(eventBannerName, "drawable", this.packageName)
 
-                eventCards.add(EventCardData(name,shortDesc,eventBaneerDrawableResId))
+                eventCards.add(EventCardData(name,shortDesc,currentJsonFileName,eventBaneerDrawableResId))
             }
         }
         catch (ex: Exception){}
