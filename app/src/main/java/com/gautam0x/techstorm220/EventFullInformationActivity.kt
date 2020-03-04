@@ -47,7 +47,10 @@ class EventFullInformationActivity : AppCompatActivity() {
             val name = currentJson.getString("event_name")
             val longDesc = currentJson.getString("event_long_desc")
             val prizeWorth = currentJson.getString("event_prize_worth")
-            val contactName = currentJson.getString("event_contact_name")
+            val contactName1 = currentJson.getString("event_contact_name1")
+            val contactNumber1 = currentJson.getString("event_contact_number1")
+            val contactName2 = currentJson.getString("event_contact_name2")
+            val contactNumber2 = currentJson.getString("event_contact_number2")
             val regFees = currentJson.getString("event_reg_fees")
             val maxMember = currentJson.getInt("event_max_member")
             val minMember = currentJson.getInt("event_min_member")
@@ -55,7 +58,10 @@ class EventFullInformationActivity : AppCompatActivity() {
             desc_text_view.text = longDesc
             prize_worth_text.text = prizeWorth
             event_reg_fees.text = regFees
-            event_contact_text.text = contactName
+            event_contact_name1_text.text = contactName1
+            event_contact_number1_text.text = contactNumber1
+            event_contact_name2_text.text = contactName2
+            event_contact_number2_text.text = contactNumber2
 
             reg_btn.setOnClickListener {
                 when(maxMember){

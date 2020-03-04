@@ -47,13 +47,14 @@ class EventCardSlideActivity : AppCompatActivity() {
                 // Get Plain Text
                 val name = jsonArr.getJSONObject(i).getString("event_name")
                 val shortDesc = jsonArr.getJSONObject(i).getString("event_short_desc")
-                val prizeWorth = jsonArr.getJSONObject(i).getString("event_prize_worth")
+                val minMember = jsonArr.getJSONObject(i).getString("event_min_member")
+                val maxMember = jsonArr.getJSONObject(i).getString("event_max_member")
 
                 // Find Drawable From Banner Name
                 val eventBannerName =  jsonArr.getJSONObject(i).getString("event_banner_drawable")
                 val eventBaneerDrawableResId = this.resources.getIdentifier(eventBannerName, "drawable", this.packageName)
 
-                eventCards.add(EventCardData(name,shortDesc,currentJsonFileName,eventBaneerDrawableResId))
+                eventCards.add(EventCardData(name,shortDesc,minMember,maxMember,currentJsonFileName,eventBaneerDrawableResId))
             }
         }
         catch (ex: Exception){}

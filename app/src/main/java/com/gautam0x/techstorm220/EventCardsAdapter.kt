@@ -24,15 +24,17 @@ class EventCardsAdapter (private val events : ArrayList<EventCardData>,private v
 
     override fun bindVH(holder: MovieViewHolder, position: Int) {
 
-        holder.itemView.run{
-            card_event_name.text=events[position].eventName
-            card_short_desc.text=events[position].eventShortDesc
-            card_event_thumb.setImageResource(events[position].eventThumbnail)
-            card_more_info_btn.setOnClickListener {
-                val intent = Intent(context,EventFullInformationActivity::class.java)
-                intent.putExtra("currentJsonFilename",events[position].jsonFileName)
-                intent.putExtra("stackPosition",position)
-                intent.putExtra("eventCategory",eventType)
+                holder.itemView.run{
+                    card_event_name.text=events[position].eventName
+                    card_short_desc.text=events[position].eventShortDesc
+                    max_mem_text.text=events[position].maxMember
+                    min_mem_text.text=events[position].minMember
+                    card_event_thumb.setImageResource(events[position].eventThumbnail)
+                    card_more_info_btn.setOnClickListener {
+                        val intent = Intent(context,EventFullInformationActivity::class.java)
+                        intent.putExtra("currentJsonFilename",events[position].jsonFileName)
+                        intent.putExtra("stackPosition",position)
+                        intent.putExtra("eventCategory",eventType)
                 context.startActivity(intent)
             }
         }
