@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         app:maxImageSize="50dp"
         android:src="@drawable/register_txt"
-        app:backgroundTint="#710B70"
+        app:backgroundTint="#02346A"
         app:fabCustomSize="70dp"
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|right|end"
