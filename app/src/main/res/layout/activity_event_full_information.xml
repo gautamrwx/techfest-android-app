@@ -28,7 +28,7 @@
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerInside"
-                android:src="@drawable/rocombat" />
+                android:src="@drawable/event_posteram" />
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/tool_bar"
@@ -359,10 +359,12 @@
                         android:textSize="16sp" />
 
                     <TextView
-                        android:id="@+id/event_contact_number1_text"                        android:layout_width="match_parent"
+                        android:id="@+id/event_contact_number1_text"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/quickstandbold"
                         android:text="contactName1"
+                        android:textColor="#0656B8"
                         android:textSize="16sp" />
 
                     <TextView
@@ -375,10 +377,12 @@
                         android:textSize="16sp" />
 
                     <TextView
-                        android:id="@+id/event_contact_number2_text"                        android:layout_width="match_parent"
+                        android:id="@+id/event_contact_number2_text"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/quickstandbold"
                         android:text="contactName1"
+                        android:textColor="#0656B8"
                         android:textSize="16sp" />
 
                 </LinearLayout>

@@ -1,14 +1,19 @@
 package com.gautam0x.techstorm220
 
+import android.Manifest
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
+import android.content.pm.PackageManager
+import android.net.Uri
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.appbar.AppBarLayout
 import kotlinx.android.synthetic.main.activity_event_full_information.*
 import org.json.JSONArray
 import java.io.IOException
 import java.io.InputStream
+
 
 class EventFullInformationActivity : AppCompatActivity() {
 
@@ -60,8 +65,51 @@ class EventFullInformationActivity : AppCompatActivity() {
             event_reg_fees.text = regFees
             event_contact_name1_text.text = contactName1
             event_contact_number1_text.text = contactNumber1
+
+            event_contact_number1_text.setOnClickListener {
+                val myIntent = Intent(Intent.ACTION_CALL)
+                val phNum = "tel:$contactNumber1"
+                myIntent.data = Uri.parse(phNum)
+                if (ActivityCompat.checkSelfPermission(
+                        this,
+                        Manifest.permission.CALL_PHONE
+                    ) != PackageManager.PERMISSION_GRANTED
+                ) {
+                    // TODO: Consider calling
+                    //    ActivityCompat#requestPermissions
+                    // here to request the missing permissions, and then overriding
+                    //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                    //                                          int[] grantResults)
+                    // to handle the case where the user grants the permission. See the documentation
+                    // for ActivityCompat#requestPermissions for more details.
+                    return@setOnClickListener
+                }
+                startActivity(myIntent)
+            }
+
             event_contact_name2_text.text = contactName2
             event_contact_number2_text.text = contactNumber2
+
+            event_contact_number2_text.setOnClickListener {
+                val myIntent = Intent(Intent.ACTION_CALL)
+                val phNum = "tel:$contactNumber2"
+                myIntent.data = Uri.parse(phNum)
+                if (ActivityCompat.checkSelfPermission(
+                        this,
+                        Manifest.permission.CALL_PHONE
+                    ) != PackageManager.PERMISSION_GRANTED
+                ) {
+                    // TODO: Consider calling
+                    //    ActivityCompat#requestPermissions
+                    // here to request the missing permissions, and then overriding
+                    //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                    //                                          int[] grantResults)
+                    // to handle the case where the user grants the permission. See the documentation
+                    // for ActivityCompat#requestPermissions for more details.
+                    return@setOnClickListener
+                }
+                startActivity(myIntent)
+            }
 
             reg_btn.setOnClickListener {
                 when(maxMember){

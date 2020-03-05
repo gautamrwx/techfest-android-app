@@ -32,7 +32,7 @@ class RegisterUser1Activity : AppCompatActivity() {
         form {
             input(R.id.input_mem_email) {
                 isNotEmpty()
-                //isEmail()
+                isEmail()
             }
             input(R.id.input_mem_phone) {
                 isNotEmpty()

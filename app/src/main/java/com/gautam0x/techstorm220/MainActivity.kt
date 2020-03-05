@@ -31,9 +31,11 @@ class MainActivity : AppCompatActivity() {
         navigationView.setNavigationItemSelectedListener(NavigationView.OnNavigationItemSelectedListener {
             when(it.itemId){
 
-                R.id.nav_about_us -> Toast.makeText(applicationContext,"cam 1",Toast.LENGTH_SHORT).show()
-                R.id.nav_result -> Toast.makeText(applicationContext,"cam 2",Toast.LENGTH_SHORT).show()
+                R.id.nav_about_us -> startActivity(Intent(this,AboutUsActivity::class.java))
+                R.id.nav_identity -> startActivity(Intent(this,RegistrationInfoActivity::class.java))
                 R.id.nav_team -> startActivity(Intent(this,TeamProfilesActivity::class.java))
+                R.id.nav_website -> Toast.makeText(applicationContext,"Result will Link to fest website",Toast.LENGTH_SHORT).show()
+
 
                 R.id.nav_website -> Toast.makeText(applicationContext,"cam 4",Toast.LENGTH_SHORT).show()
                 R.id.nav_facebook -> Toast.makeText(applicationContext,"cam 4",Toast.LENGTH_SHORT).show()
@@ -62,8 +64,8 @@ class MainActivity : AppCompatActivity() {
         sponserList.add(SponersModel("MadeEasy", R.drawable.batch_gateaca, View.VISIBLE))
 
         sponserList.add(SponersModel("Ferrari", R.drawable.batch_ardent_logo, View.VISIBLE))
-        sponserList.add(SponersModel("Micros", R.drawable.robos, View.INVISIBLE))
-        sponserList.add(SponersModel("Micros", R.drawable.robos, View.INVISIBLE))
+        sponserList.add(SponersModel("Micros", R.drawable.batch_gateaca, View.INVISIBLE))
+        sponserList.add(SponersModel("Micros", R.drawable.batch_gateaca, View.INVISIBLE))
 
         sponsers_pager.adapter = SponsersAdapter(sponserList,this)
     }
