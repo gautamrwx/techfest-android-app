@@ -37,7 +37,7 @@ class RegisterUser2Activity : AppCompatActivity() {
             input(R.id.input_mem1_phone) {
                 isNotEmpty()
                 isNumber()
-                isNumber().exactly(10)
+                length().exactly(10)
             }
             input(R.id.input_team_name) {
                 isNotEmpty()
