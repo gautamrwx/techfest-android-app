@@ -3,11 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/item_page"
-    android:background="#fddaad"
+    android:background="@drawable/neon_border_lightblue"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ImageView
+        android:layout_margin="3dp"
         android:id="@+id/thumbnail_picture"
         android:scaleType="centerCrop"
         android:layout_width="match_parent"

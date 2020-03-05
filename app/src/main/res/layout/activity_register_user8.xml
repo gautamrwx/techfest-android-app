@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:background="@drawable/splash_screen_bg"
+    android:background="@drawable/app_bg_image"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegisterUser8Activity">
@@ -295,7 +295,12 @@
                 android:id="@+id/submit_reg_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Submit"/>
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/more_info_btn"
+                android:text="Register Now"
+                android:textColor="#F3EFEF" />
+
 
         </LinearLayout>
     </ScrollView>

@@ -79,6 +79,13 @@ class EventFullInformationActivity : AppCompatActivity() {
                         regIntent.putExtra("minMember",minMember)
                         startActivity(regIntent)
                     }
+                    4 -> {
+                        val regIntent = Intent(this,RegisterUser4Activity::class.java)
+                        regIntent.putExtra("eventCategory",eventCategory)
+                        regIntent.putExtra("eventName",name)
+                        regIntent.putExtra("minMember",minMember)
+                        startActivity(regIntent)
+                    }
                     5 -> {
                         val regIntent = Intent(this,RegisterUser5Activity::class.java)
                         regIntent.putExtra("eventCategory",eventCategory)

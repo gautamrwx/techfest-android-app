@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:background="#fdfdfd"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -11,11 +10,13 @@
         android:id="@+id/card_event_thumb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scaleType="centerInside"
+        android:layout_alignParentStart="true"
         android:adjustViewBounds="true"
-        app:srcCompat="@drawable/fifa" />
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/event_postercoc" />
 
     <TextView
+        android:layout_below="@id/card_event_thumb"
         android:id="@+id/card_event_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,6 +28,8 @@
         android:textStyle="bold" />
 
     <RelativeLayout
+        android:id="@+id/team_counter"
+        android:layout_below="@id/card_event_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
@@ -73,8 +76,9 @@
         android:id="@+id/card_short_desc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/team_counter"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="15dp"
         android:text="shoert Desc" />
 
@@ -83,8 +87,10 @@
         android:id="@+id/card_more_info_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="15dp"
+        android:layout_marginBottom="25dp"
         android:background="@drawable/more_info_btn"
         android:minWidth="150dp"
         android:text="More Details"
@@ -92,4 +98,4 @@
         android:textSize="16sp"
         android:textStyle="bold" />
 
-</LinearLayout>
+</RelativeLayout>

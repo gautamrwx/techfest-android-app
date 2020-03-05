@@ -12,6 +12,15 @@ import kotlinx.android.synthetic.main.event_type_thumbnail.view.*
 
 class EventTypesAdapter (private val events : ArrayList<EventTypes>,val context:Context) : CardSliderAdapter<EventTypesAdapter.MovieViewHolder>() {
 
+    private val eventCounts = ArrayList<String>()
+
+    init {
+        eventCounts.add("7")
+        eventCounts.add("4")
+        eventCounts.add("4")
+        eventCounts.add("2")
+    }
+
     override fun getItemCount() = events.size
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder {
@@ -24,7 +33,7 @@ class EventTypesAdapter (private val events : ArrayList<EventTypes>,val context:
         holder.itemView.run{
             thumbnail_picture.setImageResource(events[position].eventThumbnail)
             event_type_text.text=events[position].eventType
-            event_counter_text.text= 6.toString()
+            event_counter_text.text= eventCounts[position]
             btn_dive_in.setOnClickListener {
                 val intent = Intent(context,EventCardSlideActivity::class.java)
                 intent.putExtra("jsonFileName",events[position].eventJson)

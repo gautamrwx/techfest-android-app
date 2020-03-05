@@ -51,4 +51,7 @@ dependencies {
     implementation 'com.robertlevonyan.view:CustomFloatingActionButton:3.0.0'
     implementation 'in.codeshuffle:typewriterview:1.1.0'
     implementation 'com.github.dimorinny:floating-text-button:0.0.4'
+    implementation 'com.github.kenglxn.QRGen:android:2.3.0'
+    implementation 'com.afollestad:vvalidator:0.5.2'
+
 }

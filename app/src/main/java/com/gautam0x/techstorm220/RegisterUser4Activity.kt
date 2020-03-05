@@ -6,17 +6,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.afollestad.vvalidator.form
 import com.google.firebase.database.FirebaseDatabase
-import kotlinx.android.synthetic.main.activity_register_user8.*
-import kotlinx.android.synthetic.main.activity_register_user8.toolbar
+import kotlinx.android.synthetic.main.activity_register_user4.*
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
 
-class RegisterUser8Activity : AppCompatActivity() {
+class RegisterUser4Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_register_user8)
+        setContentView(R.layout.activity_register_user4)
 
         val minMember = intent.getIntExtra("minMember",1)
         val eventName = intent.getStringExtra("eventName")
@@ -56,7 +55,7 @@ class RegisterUser8Activity : AppCompatActivity() {
             }
             // Start Action
             when (minMember) {
-                in 3 downTo 2 -> {
+                in 2..3 -> {
                     input(R.id.input_mem2_name) {
                         isNotEmpty()
                         length().greaterThan(3)
@@ -65,16 +64,8 @@ class RegisterUser8Activity : AppCompatActivity() {
                         isNotEmpty()
                         length().greaterThan(1)
                     }
-                    input(R.id.input_mem3_name) {
-                        isNotEmpty()
-                        length().greaterThan(3)
-                    }
-                    input(R.id.input_mem3_department) {
-                        isNotEmpty()
-                        length().greaterThan(1)
-                    }
                 }
-                in 4 downTo 3 -> {
+                in 3..4 -> {
                     input(R.id.input_mem2_name) {
                         isNotEmpty()
                         length().greaterThan(3)
@@ -96,46 +87,12 @@ class RegisterUser8Activity : AppCompatActivity() {
                         length().greaterThan(3)
                     }
                     input(R.id.input_mem4_department) {
-                        isNotEmpty()
-                        length().greaterThan(1)
-                    }
-                }
-                in 5 downTo 4 -> {
-                    input(R.id.input_mem2_name) {
-                        isNotEmpty()
-                        length().greaterThan(3)
-                    }
-                    input(R.id.input_mem2_department) {
-                        isNotEmpty()
-                        length().greaterThan(1)
-                    }
-                    input(R.id.input_mem3_name) {
-                        isNotEmpty()
-                        length().greaterThan(3)
-                    }
-                    input(R.id.input_mem3_department) {
-                        isNotEmpty()
-                        length().greaterThan(1)
-                    }
-                    input(R.id.input_mem4_name) {
-                        isNotEmpty()
-                        length().greaterThan(3)
-                    }
-                    input(R.id.input_mem4_department) {
-                        isNotEmpty()
-                        length().greaterThan(1)
-                    }
-                    input(R.id.input_mem5_name) {
-                        isNotEmpty()
-                        length().greaterThan(3)
-                    }
-                    input(R.id.input_mem5_department) {
                         isNotEmpty()
                         length().greaterThan(1)
                     }
                 }
             }
-            // Start Action
+
             submitWith(R.id.submit_reg_btn) { result ->
                 performFirebaseSubmission()
             }
@@ -195,10 +152,6 @@ class RegisterUser8Activity : AppCompatActivity() {
         groupMembers.add(GroupMem(input_mem2_name.text.toString(),input_mem2_department.text.toString()))
         groupMembers.add(GroupMem(input_mem3_name.text.toString(),input_mem3_department.text.toString()))
         groupMembers.add(GroupMem(input_mem4_name.text.toString(),input_mem4_department.text.toString()))
-        groupMembers.add(GroupMem(input_mem5_name.text.toString(),input_mem5_department.text.toString()))
-        groupMembers.add(GroupMem(input_mem6_name.text.toString(),input_mem6_department.text.toString()))
-        groupMembers.add(GroupMem(input_mem7_name.text.toString(),input_mem7_department.text.toString()))
-        groupMembers.add(GroupMem(input_mem8_name.text.toString(),input_mem8_department.text.toString()))
 
         // Start Action
         val ref = FirebaseDatabase.getInstance().getReference(firebaseEventCategory).child(firebaseEventName)
