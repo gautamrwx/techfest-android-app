@@ -1,0 +1,40 @@
+[
+  {
+    "event_banner_drawable":"event_posterro_car",
+    "event_name": "PASSION-WITH-REELS",
+    "event_short_desc": "Portray yourself through technology.",
+    "event_long_desc": "Filmmaking involves a number of discrete stages including an initial story, idea, or commission, through screenwriting, casting, shooting, sound recording and pre-production, editing, and screening the finished product before an audience that may result in a film release and exhibition. Filmmaking takes place in many places around the world in a range of economic, social, and political contexts, and using a variety of technologies and cinematic techniques.Filmmaking is not only an art but is also a perfect portrayal of the ever-changing life & rapid scientific & technological growth of mankind. Now, if you are passionate about it and have a team that has the potential to make a movie, then step up, participate in this wonderful event & show us your passion with reels!!!",
+    "event_prize_worth": "Will be updated...",
+    "event_reg_fees": "•Local Teams: INR .../-\n•Other Teams: INR .../-",
+    "event_max_member": "8",
+    "event_min_member": "1",
+    "event_contact_name1": "Member Name 1",
+    "event_contact_number1": "0000000000",
+    "event_contact_name2": "Member Name 1",
+    "event_contact_number2": "0000000000",
+    "event_rule_list":
+    [
+      {"rule_title": "Rules and Regulations:","rule_desc":"1. Must be a short film with a story, runtime of film should not exceed 11 minutes(Including the beginning and end credits).  Participants must ensure that the titles and credits displayed do not last for more than 1 minute. Films exceeding this time limit are likely to be rejected.\n\n2. Political biasness, Religional biasness, Pornographic content will not be entertained and would lead to direct disqualification. AVOID EXCESSIVE VIOLENCE. \n\n3. Movies should be in 720p(HD) minimum. \nFORMAT: The films may be shot in MPEG4 or AVI format. The recommended ratios are: 16:9 / 16:9 Full Height Anamorphic – in DV / HDV.\n\n4. Films may be in any language or have no dialogue at all. Films in Language other than English should carry subtitles in English.\n\n5. Due credits must be given to the cast and the crew in the film though the final prize would go to the team.\n\n6. There is no particular theme for the short film.\n\n7. Films once entered cannot be withdrawn.\n\n8. The short film must be original(should not be copied from other sources) and no watermark of any kind should be on the film.\n\n9.  ONLY Short Films should be submitted NO DOCUMENTARIES, ANIMATIONS OR EXPERIMENTAL ART FORMS. \n\n10. Submission of video should be done through CD, DVD or Pen drive.\n\n11. Multiple entries of same team is not allowed.\n\n12. Movies that were submitted last year in Techstorm would not be accepted.\n\n13. Participants may or may not be from same college but submission of a copy of their college id card is compulsory. All participants must be college students(either UG or PG).\n\n14. Each film should begin with a disclaimer, which should also include the title of the movie and TEAM NAME.\n\n15. The maximum number of team members can be 8 (including the cast) and minimum number of team members can be 1.\n\n16. Judges’ decision will be final and binding.\n\n17. The last date of submitting the short film is 3rd April. (Participant can also email their film to the co-ordinator of the event.)\n\n18. TECHSTORM 2.20 organizers reserve the right to change / modify / alter any rule or its part or event of this competition anytime."}
+    ]
+  },
+  {
+    "event_banner_drawable":"event_poster35mm",
+    "event_name": "ONLINE-PHOTOGRAPHY",
+    "event_short_desc": "TEST",
+    "event_long_desc": "TEST",
+    "event_prize_worth": "Will be updated...",
+    "event_reg_fees": "•Local Teams: INR .../-\n•Other Teams: INR .../-",
+    "event_max_member": "1",
+    "event_min_member": "1",
+    "event_contact_name1": "Member Name 1",
+    "event_contact_number1": "0000000000",
+    "event_contact_name2": "Member Name 1",
+    "event_contact_number2": "0000000000",
+    "event_rule_list":
+    [
+      {"rule_title": "TEST","rule_desc":"TEST"},
+      {"rule_title": "TEST","rule_desc":"TEST"},
+      {"rule_title": "TEST","rule_desc":"TEST"}
+    ]
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "event_banner_drawable":"event_posterro_wings",
+    "event_name": "RO-WINGS",
+    "event_short_desc": "Please make sure to fasten your seat belts, keep your seats upright and keep your windows open during take-off.",
+    "event_long_desc": "Test your imagination with your measurable skills that will take you to the winning paramount of the event robo-spring. Race your drone against time and across obstacles course from start to finish at full throttle. The whole event is divided into parts with hurdles at each stage. So buckle your skills and test your control.",
+    "event_prize_worth": "Will be updated...",
+    "event_reg_fees": "•Local Teams: INR .../-\n•Other Teams: INR .../-",
+    "event_max_member": "5",
+    "event_min_member": "1",
+    "event_contact_name1": "Member Name 1",
+    "event_contact_number1": "0000000000",
+    "event_contact_name2": "Member Name 1",
+    "event_contact_number2": "0000000000",
+    "event_rule_list":
+    [
+      {"rule_title": "Objective","rule_desc":"Each team can have a maximum of five members. Each team have to compete against time along with obstacles. The selection of the teams will depend upon the time for the completion of the track and the scores achieved by each team."},
+      {"rule_title": "GAME PLAY RULES","rule_desc":"1.The height of each pole will be of 1m with a circle mounted on it.\n\n2.The circles contain balls hanging to it. The drone should pass through the circle without touching the balls.\n\n3.Maximum height of the multicopter from the ground is of 1.2m.\n\n4.You have to start from origin and follow the path neatly without interfering obstacles, area and ground."},
+      {"rule_title": "SCORING RULES FOR BOTH PRELIMS AND FINALS","rule_desc":"1.Passing through each circle will be rewarded 200 points.\n\n2.Touching the balls will cost 50 points.\n\n3.Technical Fault will cost 20 points.\n\n4.Touching balls at the last portion of the path will cost 60 points.\n\n5.Landing improperly will cost 20 points.\n\n6.Flying of drone successfully in designed shape will be rewarded 100 points.\n\n7.Landing properly on box will be rewarded 50 points."},
+      {"rule_title": "DRONE SPECIFICATION","rule_desc":"1.Use a tri-copter, quad-copter, hexa-copter or octa-copter model.\n\n2.Use of metallic propellers is prohibited.\n\n3.Use electrical motors only.\n\n4.Decide the dimensions of your craft carefully.\n\n5.Use of automated features of flight control of board will lead to direct disqualification."},
+      {"rule_title": "GENERAL RULES","rule_desc":"1.Every participant must bring their college id card along with a Xerox copy of his/her voter ID card or PAN card or Adhar card.\n\n2.Every participant must be a student of any reputed institute.\n\n3.Max of five members allowed in a team.\n\n4.On completion of the path, land your multicopter accurately on the box placed at the end of the path.\n\n5.Time limit to complete the task is of 5 minutes.\n\n6.Maximum of three faults is allowed which includes touching the ground, crossing maximum height limit of 1.2m, any collision with the arena etc. Time will not be paused.\n\n7.Time points will be awarded only to the teams which will complete the whole task in allotted time of 5 minutes.\n\n8.A technical fault time would be provided with a valid reason and it would cost points.\n\n9.If any unethical, fraudulent behavior is found, which will violate the rules of the game play, then the corresponding teams will be disqualified.\n\n10.The teams will be selected in the prelims according to the time taken to clear the track and scores achieved.\n\n11.The final round will be conducted among the selected teams.\n\n12.Note the rounds will dependent upon the participation.\n\n13.At any time we can change the arena rules and the decision of the coordinator will be final."}
+    ]
+  },
+  {
+    "event_banner_drawable":"event_posterro_picker",
+    "event_name": "RO-PICKER",
+    "event_short_desc": "At the end of the day, the job is to pick the blocks and move to the finish line as fast as you can !",
+    "event_long_desc": "1. At the end of the day,the job is to pick the blocks and move to the finish line as fast as you can. \n\n2. This is a time based pick and place event so fastest and the most efficient robots will win.\n\n3. All the rounds will be solo with increasing arena complexities (can be box number or hurdles) towards the finals.",
+    "event_prize_worth": "Will be updated...",
+    "event_reg_fees": "•Local Teams: INR 100/-\n•Other Teams: INR 120/-",
+    "event_max_member": "5",
+    "event_min_member": "3",
+    "event_contact_name1": "Member Name 1",
+    "event_contact_number1": "0000000000",
+    "event_contact_name2": "Member Name 1",
+    "event_contact_number2": "0000000000",
+    "event_rule_list":
+    [
+      {"rule_title": "Team Rules:","rule_desc":"1 There can be a minimum of 3 and a maximum of 5 unique members in the team.\n\n2. Team Members need to bring their college ID cards.In the prelm there will be obstacles,teams have to avoid the obstacles and put the ball in thee basket.\n\n3. Te paticipants wil bwe provided with a 220V,50Hz single phase power supply.\n\n4. The decision of coordinators will be final."},
+      {"rule_title": "Game Play Rules:","rule_desc":"1. Time taken by the robots to complete the track will be the only criteria of judgement for qualification to the next round.\n\n2. There will be total 2min of technical help for every team which can be taken at most 2 division (e.g.: 1 min 30 sec + 30 sec or 1 min + 1 min) \n\n3. Under any circumstances, after the beginning of the round team participants must not touch the bots except in the technical timeout.\n\n4. Teams who chose to quit (for technical fault) will not be considered while shortlisting candidates for the next round in any case.\n\n5. Stepping on the track is forbidden. This can only be done by coordinators. Failing to abide will lead to disqualification without any refunds.\n\n6. No two team should share the same robot."},
+      {"rule_title": "Bot Specification:","rule_desc":"1. Participants will be provided with a standard 220-volts 50 Hz AC power supply outlet.\n\n2. The robot should fit in a box of dimension 40cm (l) x 30cm (b) x 30cm (h) with the picking mechanisms.\n\n3. Maximum weight of robot should not be more than 4 kg. External control device shall not be considered for weight and size measurement.\n\n4. The robot may be wired or wireless. There is a Special credit for wireless bot. But for wireless, it is mandatory to use dual frequency remote or else it will lead to disqualification. For wired bots, the length must be enough for cover the entire arena.\n\n5 Lego kit or spare parts are strictly prohibited. However team can use readymade gear system.\n\n6. The potential difference between any two points should not exceed 24 V DC at any point of time during the run round is an aptitude round with tricky questions, out of which 4 teams proceed to the finals."}
+    ]
+  },
+  {
+    "event_banner_drawable":"event_posterro_nav",
+    "event_name": "RO-NAVIGATOR",
+    "event_short_desc": "Discipline is the key to stay on track. May your bot be disciplined enough.",
+    "event_long_desc": "Ro-Navigator is basically an event which is similar to Line follower .Where the bot has to identify and follow a black track and complete the arena.The bot must be according to the specifications provided in the rules section and the teams must bring their respective college IDs. There would be two rounds prelims and the final round . If the teams qualify the prelims they would be called up for the second/final round .",
+    "event_prize_worth": "Will be updated...",
+    "event_reg_fees": "•Local Teams: INR 100/-\n•Other Teams: INR 130/-",
+    "event_max_member": "4",
+    "event_min_member": "2",
+    "event_contact_name1": "Member Name 1",
+    "event_contact_number1": "0000000000",
+    "event_contact_name2": "Member Name 1",
+    "event_contact_number2": "0000000000",
+    "event_rule_list":
+    [
+      {"rule_title": "Rules:","rule_desc":"1.Each team can have a minimum of 2 members and maximum of 4 members.\n\n2.No same member can take part in two different teams.\n\n3.The members of the team can be from different college or university.\n\n4.All the team members are required to bring their ID card with them.\n\n5.Each team can present only one bot.\n\n6.Prelims will be held on the first day of Tech-Fest. The qualified teams need to come on the next day for final round about which they will be informed.\n\n7.The co-ordinators can change some of the rules in case of special cases, if required."},
+      {"rule_title": "Bot Specification:","rule_desc":"1.Bot dimension must be such that it fits in a cube of 20 x 20 x 20 cubic cm. Individual parameters to be measured with 10% tolerance.\n\n2.The bot must be an autonomous robot, no remote or controller should control the robot.\n\n3.The participants will be provided with a 220 V, 50 Hz single phase power supply.\n\n4. The bot must weigh upto a maximum of 4 kg. Heavier bot will be disqualified.\n\n5.The bot should be constructed only using IR sensor not IC engine or any hard coding or else the team will lead in disqualification.\n\n6.The bot must be designed by the team itself. It should not be ready-made.\n\n7.Damage to the arena will lead to disqualification."},
+      {"rule_title": "Gameplay(PRELIMS):","rule_desc":"1.The line will be black on white background with some colourful lines too.\n\n2.If the bot gets stuck in any part of the arena they are allowed to touch and place the bot manually for 2 times for each stage of the arena. No more chances will be entertained.\n\n3.The bot with minimum completion time and highest score will lead the board.\n\n4.Between two consecutive run the clock will not be paused.\n\n5.A technical timeout of 2 mins will be allowed once only.\n\n6.Hard coding is allowed.\n\n\n**IMPORTANT NOTE: If a team makes a wireless bot that team will be credited extra points."}
+    ]
+  },
+  {
+    "event_banner_drawable":"event_posterro_t",
+    "event_name": "RO-TERRANCE",
+    "event_short_desc": "Life will throw many obstacles. But we'll throw mountains, desserts, bridges and may be even a river. Just don't let your wheels fall apart.",
+    "event_long_desc": "The event consists of an arena which is a pathway filled with obstacles. The bot must be able to follow the path to overcome every obstacles coming its way, be it sand, water, gravel or any mechanical blockage. Points will be awarded on successfully overcoming the obstacles, otherwise negative points will be awarded.",
+    "event_prize_worth": "Will be updated...",
+    "event_reg_fees": "•Local Teams: INR 120/-\n•Other Teams: INR 150/-",
+    "event_max_member": "4",
+    "event_min_member": "1",
+    "event_contact_name1": "Member Name 1",
+    "event_contact_number1": "0000000000",
+    "event_contact_name2": "Member Name 1",
+    "event_contact_number2": "0000000000",
+    "event_rule_list":
+    [
+      {"rule_title": "Bot Specifications:","rule_desc":"1.The dimensions of the bot can be up to a maximum of 25 cm*25 cm*25 cm (l*b*h) excluding the control device dimensions.\n\n2.A bot may weigh up to 2kg , but not more than that.\n\n3.Maximum voltage between any two points on the bot must not exceed 24V DC.\n\n4.The Chassis may be made of any material but weight of the bot must not exceed 2 kg.\n\n5.Wheels can be of metal or any material but it must have a rubber tire on it.\n\n6.Use of IC engines is prohibited.\n\n7.In case of wired bot sufficient amount of the wire must be brought by the participants. Any time loss due to entanglement is the responsibility of the participants.\n\n8.240V AC will be supplied as a power source for the bots."},
+      {"rule_title": "Team Rules:","rule_desc":"1.Each team may consist of five members.\n\n2.No participants can be present in two teams .\n\n3.Each member of the team must bring their own college ID .\n\n4.Teams will require registering themselves in the registration counter before they can participate in the event.\n\n5.Each team have to keep their registration slip carefully for the issue of participants and winning certificates.\n\n6.Wireless bot will be provided extra 100 bonus points over their total points."},
+      {"rule_title": "Gameplay Rules:","rule_desc":"1.The team will be given maximum 4 min to complete the whole task.\n\n2.During the rounds, only  maximum of  two members of  a team are allowed in the arena, one member will control the bot and other to guide it. However , teams are allowed to switch members in different rounds.\n\n3.No last minute repairs will be allowed in the arena. However, each team can take time-out of 2 minutes once during the event.\n\n4.Each team will be given a test run with their bots before the commences of the event.\n\n5.If the bot falls of arena or is unable to cross any obstacle the team may use a hand touch and place in its previous position. First  two hand touch will be free from point deduction. After two free touches marks deduction will be started.\n\n6.If you want to skip any part of obstacle then no point will be deducted but if you failed to complete any obstacles then the allocated point of that particular  obstacle part will be deducted  from your  total point.\n\n7.A particular obstacle part will be there in the arena, which will carry high bonus point and it will not going to deduct any point from total, if the player wanted to skip it or failed to complete it.\n\n8.The rules can be changed or modified according to the circumstances and the arena."}
+    ]
+  },
+  {
+    "event_banner_drawable":"event_posterro_socc",
+    "event_name": "RO-SOCCER",
+    "event_short_desc": "As long as no one scored, it's always going to be close.",
+    "event_long_desc": "Explore the thrill of soccer, the challenge of team co-ordination, your skills of control over the bot & your limit to resist the pressure and deliver at the same time. In this event, teams have to try to score goals against their opponents & save their goal at the same time. Extend your imagination in gameplay and tactics. If you think you are up to the mark Ro-Soccer is the platform for robotics enthusiasts like you.",
+    "event_prize_worth": "Will be updated...",
+    "event_reg_fees": "•Local Teams: INR .../-\n•Other Teams: INR .../-",
+    "event_max_member": "5",
+    "event_min_member": "1",
+    "event_contact_name1": "Member Name 1",
+    "event_contact_number1": "0000000000",
+    "event_contact_name2": "Member Name 1",
+    "event_contact_number2": "0000000000",
+    "event_rule_list":
+    [
+      {"rule_title": "Objective","rule_desc":"Each team would have two manual bots, one as defender and the other as striker. Each team will compete with another team also having two bots. The first round would be the prelims &at the end of the prelims, depending upon the score, teams will qualify to the next round."},
+      {"rule_title": "Bot Specifications","rule_desc":"1.The dimensions of the bots should be 25*25*25 cm.\n\n2.The weight of the bot should be within 3kg , no external weights are allowed, otherwise the corresponding team will be disqualified .\n\n3.10% tolerance would be allowed in 25cm lengths & any deviations from the above mentioned dimensions may lead to disqualification of the team.\n\n4.Readymade toy cars or Lego or IC engines or hydraulic systems are not allowed.\n\n5.The robot should be remotely controlled and the connections(the wires for instance)between the control unit and the robot should be slag all the times."},
+      {"rule_title": "Selection Procedure","rule_desc":"1.FIRST PREFERENCE WOULD BE GIVEN TO POINTS SCORED.\n\n2.FOR SAME SCORES, NUMBER OF GOALS SCORED WILL BE TAKEN INTO CONSIDERATION.\n\n3.IN CASE ALL OF THE ABOVE ARE EQUAL, THEN PENALTY SHOOTOUTS WOULD BE HELD"},
+      {"rule_title": "In case of technical problem","rule_desc":"1.Each team would be given 3 minutes. If they want to postpone the match for some time then 1 goal of their score will be awarded to the other team. If the team doesn’t have any goals, then the team would be awarded negative goals.\n\n2.In case one of the bots is disabled, the team can defend their goal with the help of their remaining bot."},
+      {"rule_title": "In case of a draw","rule_desc":"1.In case of a draw, penalty shoot-out would be held as tie breaker.\n\n2.Goal difference would also be checked.\n\n3.Total goals scored & conceded would be also checked."},
+      {"rule_title": "Scoring","rule_desc":"1.THE TEAM WHICH SCORES THE FIRST GOAL WOULD BE AWARDED 100 POINTS.\n\n2.50 POINTS WOULD BE AWARDED FOR ALL FURTHER GOALS.\n\n3.EACH PENALTY WOULD BE AWARDED 50 POINTS.\n\n4.EACH HAND TOUCH WOULD COST THE TEAM 20 POINTS. ANY KIND OF TECHNICAL FAULT MAY ALSO COST POINTS TO THE TEAM."},
+      {"rule_title": "General Rules","rule_desc":"1.Each team has to have two manual bots, one as striker & the other one as defender.\n\n2.Maximum 5 members are allowed in each team.\n\n3.Students from different institutions can form a team provided that each member of the team contains the identity card of his/her respective institute along with a Xerox copy of voter ID card or PAN card or AADHAR card.\n\n4.No fans or blowing devices are allowed.\n\n5.The ball can’t be trapped in any form.\n\n6.In prelims one bot from each team will participate in the gameplay."},
+      {"rule_title": "Technical Rules","rule_desc":"1.A team can take maximum of two technical time outs for not more than 5 minutes with valid reasons.\n\n2.Unethical behavior could lead to disqualification.\n\n3.Coordinators have all the rights to take final decision for any matter during the event."}
+    ]
+  },
+  {
+    "event_banner_drawable":"event_posterro_com",
+    "event_name": "RO-COMBAT",
+    "event_short_desc": "You don't want to stand too close to a robot arm; it can turn you to mush !",
+    "event_long_desc": "Two bots will start from two opposite sides of arena. There will be an inclined plane & a combat zone. Points will be provided in both zones. There will be some changes in the arena from preliminary round to final round. In preliminary rounds there will be a cuboidal arena with two inclined planes. At the entrance there will be a flap gate and an inclined plane through which bots will enter. Two cuboidal ditches will be present inside the arena at possible edges. Preliminary rounds will be of 1200 points and later stages will be of more points.",
+    "event_prize_worth": "Will be updated...",
+    "event_reg_fees": "•Local Teams: INR .../-\n•Other Teams: INR .../-",
+    "event_max_member": "5",
+    "event_min_member": "1",
+    "event_contact_name1": "Member Name 1",
+    "event_contact_number1": "0000000000",
+    "event_contact_name2": "Member Name 1",
+    "event_contact_number2": "0000000000",
+    "event_rule_list":
+    [
+      {"rule_title": "BOT SPECIFICATION","rule_desc":"1.There will be three categories based on the weight of the bots:\nCategory 1- 16kg to 30kg (1 st winner will be selected from this category)\nCategory 2- 7kg to 15kg (1 st runners up will be selected from this category)\nCategory 3- maximum 6kg (2 nd runners up will be selected from this category)\n\n2.Dimension should be less than (50*50*50) cm^3 including all gadgets.\n\n3.Bot’s wheels should fit in a 45*45cm^2 platform at the time of start.\n\n4.No readymade lego kits will be allowed.\n\n5.A 230 v ac voltage will be provided to each team.\n\n6.Ac motor in weapon system or wheels is strictly prohibited. Use of hammering tools is allowed. But in case of vertical hammering, the hammering should stop at a miniumum height of 5cm from the surface of arena, so that the arena does not get damaged. Cutting, fire and throwing weapons are NOT allowed.\n\n7.The surface of arena may get slippery, the bots should bear that.\n\n8.Wires should be sufficiently long & should not slack or touch the arena, if it does organizer will not be responsible for any damage."},
+      {"rule_title": "RULES AND REGULATIONS :","rule_desc":"1.The bots need to enter the arena through flap gates. For this 100 points will be given.\n\n2.For entering to the battle ground or combat zone through the inclined plane successfully 200 points will be given.\n\n3.If a bot is put in the pit inside the arena by opponent it will give the opponent full 300 points.\n\n4.100 points will be given for pushing the bot of the opponent team outside the arena.\n\n5. Any team can ask for time out due to technical faults. One time out will be allotted for 3 minutes. After that 10 points will be deducted for each minute.\n\n6.50 points will be deducted for each hand touch.\n\n7. In any way if the hammering tool touches the arena surface 100 points will be deducted from the respective team.\n\n8. Any kind of damage to the arena will lead to direct disqualification of the team.\n\n9 a) Duration of a match is 20 minutes.\nb) In the preliminary stage, the team that will reach 1200 points first, will qualify for the next round.\nc)In case of the teams fail to reach 1200 points within the stipulated time, the team with the higher score at the end of 20 minutes shall qualify for next round.\n\n10. The team with the highest score within 10 minutes shall qualify for further rounds.\n\n11. Points will be deducted for exceeding the weight and dimension limits (mentioned under bot specification)\na) 100 points will be deducted for each extra kg\nb) 20 points will be deducted for each extra cm."},
+      {"rule_title": "TEAM SPECIFICATIONS","rule_desc":"1. Each team can have a maximum of 5 members. No same member can be present in two teams.\n\n2. The members of a team can be from different colleges/universities.\n\n3. Team members need to bring their college ID cards and valid govt. ID cards (voter ID card or PAN card or Aadhar card Xerox copy).\n\n4. Each team can present only 1 bot.\n\n5. Any member who is a part of RO-COMBAT organizing team cannot take part in RO-COMBAT event.\n\n6. Preliminary event will be held on the first day of techfest. Qualified teams need to come on next day for further rounds about which they will be informed.\n\n7. In preliminary rounds, team will face each other on first come first serve basis. However it will be tried that bots with resembling features will face each other if possible. However the ultimate fixture will be decided by the coordinators. Any kind of misbehaviour will lead to disqualification of the team immediately.\n\n8. The reporting time of the teams for the event is 11:00 AM on both days. It is expected to be followed strictly.\n*The coordinators may change the rules in case of emergency. In case of any disputes the decision of the coordinators will be considered as final."}
+    ]
+  },
+  {
+    "event_banner_drawable":"event_posterro_car",
+    "event_name": "RO-CARROM",
+    "event_short_desc": "Think you are a carrom champ, then ro-carrom is the crown jewel platform...",
+    "event_long_desc": "Think you are a carrom champ, then ro-carrom is the crown jewel platform for you. Here your mind and finger coordination is not on the board but on the control of your buddy present on the board. Ro-carrom is the best platform to show that your team and your bot are connected through the same string forming a beautiful ornament from your lustrous bonding, understanding and awareness. Pocket carrom-men, overcome obstacles, defeat your opponent and show everyone that you and your bot are bestfriends.",
+    "event_prize_worth": "Will be updated...",
+    "event_reg_fees": "•Local Teams: INR .../-\n•Other Teams: INR .../-",
+    "event_max_member": "5",
+    "event_min_member": "1",
+    "event_contact_name1": "Member Name 1",
+    "event_contact_number1": "0000000000",
+    "event_contact_name2": "Member Name 1",
+    "event_contact_number2": "0000000000",
+    "event_rule_list":
+    [
+      {"rule_title": "OVERVIEW:\n\nLevel 1 (Prelims):","rule_desc":"Game will start with a single bot. Team pocketing all the carrom men at a least time will be qualified for NEXT LEVEL."},
+	  {"rule_title": "Level 2(QF &amp; SF):","rule_desc":"Game will start with 2 bots. Team pocketing all the carrom men at a least time will be qualified for NEXT LEVEL."},
+	  {"rule_title": "Level 3(FINAL):","rule_desc":"Game will start with 2 bots. Certain obstacles will be given. Pocketing the obstacles will lead to penalty. Team pocketing all the carom men at a least time will be declared as the WINNER.\n\n*GAME DURATION: LEVEL 1 &amp; LEVEL 2 (5 mins), LEVEL 3 (10 mins)"},
+      {"rule_title": "GAME RULES","rule_desc":"1. Points will be awarded for a successful knock in the pocket.\n\n2. Team can pocket one carrom man at a time.\n\n3. Pocketing bot is a FOUL. Team committing a FOUL will be penalized.\n\n4. If carrom men falls out of the arena, the team that made the FLICK will be penalized.\n\n5. Any player pocketing the queen is required to cover it immediately by pocketing one of their carrom men within 10 seconds. If the player fails to cover it, the queen is returned to the centre.\n\n6. Intentionally hitting the bot of the opposite team is a FOUL.\n\n7. Decision of the coordinators will be final."},
+      {"rule_title": "BOT SPECIFICATIONS","rule_desc":"1. The dimensions of the bots should be 25*25*25 cm.\n\n2. The weight of the bot should be within 3 kg, no external weights are allowed, otherwise the corresponding team will be disqualified .\n\n3. 10% tolerance would be allowed in 25cm lengths &amp; any deviations from the above mentioned dimensions may lead to disqualification of the team.\n\n4. Readymade toy cars or Lego or IC engines or hydraulic systems are not allowed.\n\n5. The robot should be remotely controlled."},
+      {"rule_title": "SCORING","rule_desc":"1. Each carrom-men : 20 points\n\n2. Queen : 50 points\n\n3. Pocketing obstacles: -5 points\n\n4. Flick: -5 points\n\n5. Foul : -10 points\n\n6. Any harm to arena : Disqualify"},
+      {"rule_title": "GENERAL RULES","rule_desc":"1. Each team can have maximum 5 members.\n\n2. Students from different institutions can form a team provided that each member of the team contains the identity card of his/her respective institute along with a Xerox copy of voter ID card or PAN card or AADHAR card.\n\n3. No fans or blowing devices are allowed."}
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "event_banner_drawable":"event_postertm",
+    "event_name": "TECHNOMANIA",
+    "event_short_desc": "An idea today can be the technology of tomorrow.",
+    "event_long_desc": "The Competition encourages students to extend their knowledge to a professional level in electrical and electronics circuit design. It also encourages them to nurture their creativity and innovation on applied engineering concepts.",
+    "event_prize_worth": "Will be updated...",
+    "event_reg_fees": "•Local Teams: INR 100/-\n•Other Teams: INR 120/-",
+    "event_max_member": "5",
+    "event_min_member": "1",
+    "event_contact_name1": "Member Name 1",
+    "event_contact_number1": "0000000000",
+    "event_contact_name2": "Member Name 1",
+    "event_contact_number2": "0000000000",
+    "event_rule_list":
+    [
+      {"rule_title": "Rules","rule_desc":"1. It should consist of hardware model on science and technology along with a powerpoint presentation.\n\n2. The members of a single team should be from the same institute.\n\n3. Each team must consist of 4 members.\n\n4. Each team must display their hardware model and have a presentation about their entire project.\n\n5. Each team will get 10 minutes for showing their hardware model and 10 minutes to perform the presentation.\n\n6. Marks will be provided on both the model and presentation\n\n7. The decision of the judges will be final."}
+    ]
+  },
+  {
+    "event_banner_drawable":"event_posteromega",
+    "event_name": "OMEGATRIX",
+    "event_short_desc": "Its not about equations or formulas or calculations. Its about understanding.",
+    "event_long_desc": "Omegatrix is an integral part of recreational mathematics. This event is open to any student with an interest in mathematics. We judge you by logging into deep well of mathematics and test your grey matter and mental ability through many other mind blogging and brainstorming question puzzles. This event is divided into two parts – prelims and final round. The finalists will be selected on the basis of their logical reasoning, time management and analytical skills in the final.",
+    "event_prize_worth": "Will be updated...",
+    "event_reg_fees": "•Local Students: INR 20/-\n•Others: INR 40/-",
+    "event_max_member": "1",
+    "event_min_member": "1",
+    "event_contact_name1": "Member Name 1",
+    "event_contact_number1": "0000000000",
+    "event_contact_name2": "Member Name 1",
+    "event_contact_number2": "0000000000",
+    "event_rule_list":
+    [
+      {"rule_title": "General Rules:","rule_desc":"1) Only individuals can participate.\n\n2) Every participant must carry her/his College identity card during the day of event.\n\n3) Utilizing any kind of electronics aid will lead to disqualification in any stage.\n\n4) Every participant must produce the given confirmation code during registration. Without proper confirmation code no participant can be registered.\n\n5) Only the selected participants will proceed to the next round.\n\n6) Entry fees for students of Local – Rs 20 and For others- Rs 40.\n\n7) Decision of the committee will be final."},
+      {"rule_title": "Prelims:","rule_desc":"Every question will contain 4 options, among them 3 will wrong and 1 will correct."},
+	  {"rule_title": "Prelims/ Round 1:","rule_desc":"1) No. of questions: 30\n\n2) Allotted time: 30 mins\n\n3) Participant will get 1 marks for right answer and No Negative marking.\n\n4) No marks will be deducted for unmarked questions."},
+	  {"rule_title": "Prelims/ Round 2:","rule_desc":"1) No. of questions: 30\n\n2) Allotted time: 30 mins\n\n3) Participant will get 2 marks for right answer and Negative marking is 1 for per wrong answer.\n\n4) No marks will be deducted for unmarked questions."},
+	  {"rule_title": "Prelims/ Tie breaker rule:","rule_desc":"1) Less number of negative marking will get higher priority."},
+      {"rule_title": "Finals:\n\nFinals/ Round 1:","rule_desc":"1) No. of questions: 25\n\n2) Allotted time: 30 mins\n\n3) Participant will get 2 marks for right answer and Negative marking is 1 for per wrong answer.\n\n4) (1/2) marks will be deducted for unmarked questions."},
+	  {"rule_title": "Finals/ Round 2:","rule_desc":"1) It will be a rapid fire round.\n\n2) No. of questions: 20\n\n3) Allotted time: 15 mins\n\n4) Participant will get 3 marks for right answer and Negative marking is 1 for per wrong answer."},
+	  {"rule_title": "*In case of a tie round 3 will occur.","rule_desc":"In case of a tie after the 2 nd round of final, the tied teams will get into a buzzer/bell round."}
+    ]
+  },
+  {
+    "event_banner_drawable":"event_posteram",
+    "event_name": "APPMANIA",
+    "event_short_desc": "Unleash the skills and let the storm heat the app store",
+    "event_long_desc": "*BP PODDAR INSTITUTE OF MANAGEMENT AND TECHNOLOGY* presents *APPMANIA* in the awaited *TECHSTORM 2.20* Calling all the young innovators with a knack to hack together the next disruptive *Android, Web, iOS, Windows* applications to take the ever-growing market of apps by storm. Register and present your application. This is your chance to make a dent in the universe. The *APPMANIA* event will be held at our college on DATE. Interested teams (Minimum 1 Maximum 2 Members) can submit their names and complete the registration.Our registration portal on our App/Website is OPEN!!!\n\nPLEASE DO LIKE APPMAINA IN TECHSTORM 2.20 OFFICIAL FB PAGE",
+    "event_prize_worth": "Will be updated...",
+    "event_reg_fees": "•Local Teams: INR 100/-\n•Other Teams: INR 150/-",
+    "event_max_member": "2",
+    "event_min_member": "1",
+    "event_contact_name1": "Member Name 1",
+    "event_contact_number1": "0000000000",
+    "event_contact_name2": "Member Name 1",
+    "event_contact_number2": "0000000000",
+    "event_rule_list":
+    [
+      {"rule_title": "Rules of the event:","rule_desc":"❏ A ​maximum of 2 members ​are allowed in a single team.One single participant can also represent the team.\n\n❏ Final submission of the app along with the ppt is on the day of the event.\n\n​❏ Participants can add any additional features along with the specified features in the problem statement.\n\n​❏ ​Maximum Time Limit ​for ​PowerPoint Presentation and App Demonstration is 10 minutes.​The Participating team ​may be penalised ​(score penalty) if time taken exceeds further.\n\n❏ ​PPT should ​NOT ​contain more than 10 slides and must contain the following:\n➢ ​Technology Stack Used ​➢ ​Dependencies of the App Idea(if any) ​➢ ​Use-Case Diagram/Model ​\n\n❏ ​We advise all participating teams ​to carry their own laptops for their presentation and use their own Internet connection​, otherwise they shall need to fill in a regulatory declaration form as per IT rules &amp; regulations of the institute.\n\n❏ ​All team members ​must carry a government ID proof (VoterID Card, Aadhar Card, PAN card, Passport) and a college IDcard ​during their participation at the event."}
+    ]
+  },
+  {
+    "event_banner_drawable":"event_posterf_c",
+    "event_name": "FANTA-C",
+    "event_short_desc": "while (!(succeed==try()));\n If you get this, then you know what this event is all about.",
+    "event_long_desc": "A great way to improve your skills when learning to code is by solving coding challenge. So, here is a chance to prove yourself that you are not only a programmer but an elegant and efficient coder. Plunge in to unravel the deep Coding secrets and swim up to the shore with the best algorithm. The three upcoming rounds will give your mind a real twist and turn so be ready to decode the trail.",
+    "event_prize_worth": "Will be updated...",
+    "event_reg_fees": "•Local Teams: INR .../-\n•Other Teams: INR .../-",
+    "event_max_member": "2",
+    "event_min_member": "2",
+    "event_contact_name1": "Member Name 1",
+    "event_contact_number1": "0000000000",
+    "event_contact_name2": "Member Name 1",
+    "event_contact_number2": "0000000000",
+    "event_rule_list":
+    [
+      {"rule_title": "Participation norms:","rule_desc":"1. Team Size: 2(max)/ (Exact)\n\n2. Each Team will be provided with a Linux (Ubuntu) based System having supportable compilers in each round.\n\n3. The whole competition will be done through a web portal. So better you be familiar yourself with auto judge CodeBlix platform or any other auto judged web portal available.\n\n4. Utilizing any kind of external electronic aid will lead to disqualification.\n\n5. A group may comprise of members from different streams and/or different years.\n\n6. No paper carried by the participants will be allowed during the whole contest."},
+      {"rule_title": "Rules and Regulations","rule_desc":"The event will be held in three rounds."},
+      {"rule_title": "FIRST ROUND\nName: D-CODE","rule_desc":"1. This is a preliminary round consisting of multiple. Choice questions on C programming language.\n\n2. Time Limit: 40 Minutes\n\n3. There will be negative marking for wrong answers."},
+      {"rule_title": "SECOND ROUND\nName: BUG-A-THON","rule_desc":"1. This is a Debugging round.\n\n2. The teams will be provided with erroneous programs. They will have to face the challenge of debugging them.\n\n3. Time Limit: 40 Minutes"},
+      {"rule_title": "THIRD ROUND\nName: CODE SPRINT","rule_desc":"1. The Groups are expected to exhibit their skills in programming.\n\n2. They will be allowed to code in anyone of the following programming languages- C, C++, JAVA and PYTHON.\n\n3. Time Limit: 90 Minutes"}
+    ]
+  }
+]
